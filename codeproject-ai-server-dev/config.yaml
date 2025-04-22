@@ -1,0 +1,35 @@
+---
+name: CodeProject AI.Server DEV
+version: dev
+url: https://hub.docker.com/r/codeproject/ai-server
+image: "ghcr.io/stevusprimus/hassio-addon-codeproject-ai-server-dev"
+panel_icon: mdi:face-recognition
+slug: codeproject-ai-server-dev
+description: standalone open-source AI server Dev Built
+arch:
+  - amd64
+  - aarch64
+ingress: true
+ingress_port: 32168
+ingress_stream: true
+startup: services
+init: false
+usb: true
+video: true
+privileged:
+  - PERFMON
+ports:
+  32168/tcp: 32168
+  32168/udp: 32168
+map:
+  - homeassistant_config:rw
+environment:
+  HA_ADDON: "true"
+  DATA_DIR: "/config/ai-server/data"
+  MODULES_PATH: "/config/ai-server/modules"
+options:
+  MODULES_PATH: "/config/ai-server/modules"
+  DATA_DIR: "/config/ai-server/data"
+schema:
+  MODULES_PATH: str
+  DATA_DIR: str
