@@ -23,11 +23,3 @@ map:
   - addon_config:rw
 environment:
   HA_ADDON: "true"
-  DATA_DIR: "/config/ai-server/data"
-  MODULES_PATH: "/config/ai-server/modules"
-options:
-  MODULES_PATH: "/config/ai-server/modules"
-  DATA_DIR: "/config/ai-server/data"
-schema:
-  MODULES_PATH: str
-  DATA_DIR: str
