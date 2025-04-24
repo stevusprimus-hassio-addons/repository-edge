@@ -9,4 +9,5 @@ on:
 
 jobs:
   workflows:
+    # yamllint disable-line rule:line-length
     uses: stevusprimus-hassio-addons/workflows/.github/workflows/stale.yaml@main

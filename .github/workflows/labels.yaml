@@ -7,7 +7,7 @@ on:
     - cron: "34 5 * * *"
   workflow_dispatch:
 
-# yamllint disable-line rule:line-length
 jobs:
   workflows:
+    # yamllint disable-line rule:line-length
     uses: stevusprimus-hassio-addons/workflows/.github/workflows/labels.yaml@main

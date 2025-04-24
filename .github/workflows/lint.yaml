@@ -11,7 +11,7 @@ on:
       - synchronize
   workflow_dispatch:
 
-# yamllint disable-line rule:line-length
 jobs:
   workflows:
+    # yamllint disable-line rule:line-length
     uses: stevusprimus-hassio-addons/workflows/.github/workflows/repository-lint.yaml@main
