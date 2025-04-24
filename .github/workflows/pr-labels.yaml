@@ -10,6 +10,7 @@ on:
       - unlabeled
       - synchronize
 
+# yamllint disable-line rule:line-length
 jobs:
   workflows:
     uses: stevusprimus-hassio-addons/workflows/.github/workflows/pr-labels.yaml@main
