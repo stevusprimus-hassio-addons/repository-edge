@@ -1,10 +1,10 @@
 ---
-name: CodeProject AI.Server DEV
+name: CodeProject AI.Server
 version: dev
 url: https://hub.docker.com/r/codeproject/ai-server
-image: "ghcr.io/stevusprimus/hassio-addon-codeproject-ai-server/{arch}"
+image: "ghcr.io/stevusprimus-hassio-addons/codeproject-ai-server/{arch}"
 panel_icon: mdi:face-recognition
-slug: codeproject-ai-server-dev
+slug: codeproject-ai-server
 description: standalone open-source AI server
 arch:
   - amd64

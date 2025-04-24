@@ -2,6 +2,6 @@
 channel: edge
 addons:
   codeproject-ai-server-dev:
-    repository: stevusprimus/hassio-addon-codeproject-ai-server
-    target: codeproject-ai-server-dev
-    image: ghcr.io/stevusprimus/hassio-addon-codeproject-ai-server/{arch}
+    repository: stevusprimus-hassio-addons/addon-codeproject-ai-server
+    target: codeproject-ai-server
+    image: ghcr.io/stevusprimus-hassio-addons/codeproject-ai-server/{arch}
