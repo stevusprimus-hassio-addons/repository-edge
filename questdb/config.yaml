@@ -11,6 +11,7 @@ arch:
 startup: services
 init: false
 ingress: true
+ingress_entry: index.html
 ingress_port: 9443
 privileged:
 - PERFMON
@@ -28,7 +29,6 @@ map:
 - addon_config:rw
 - ssl
 - share:rw
-auth_api: true
 options:
   ssl: true
   certfile: fullchain.pem
