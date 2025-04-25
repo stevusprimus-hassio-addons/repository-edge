@@ -1,3 +1,3 @@
-- Merge pull request #18 from stevusprimus-hassio-addons/feature/kick-it-off
+- Merge pull request #19 from stevusprimus-hassio-addons/feature/kick-it-off
 
-Update nginx.conf
+Update influxlineprotocol.gtpl
