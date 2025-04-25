@@ -1,5 +1,5 @@
 name: QuestDB
-version: b0dc592
+version: e608fe1
 url: https://questdb.com/
 image: ghcr.io/stevusprimus-hassio-addons/questdb/{arch}
 panel_icon: mdi:face-recognition
@@ -16,11 +16,11 @@ ingress_stream: true
 privileged:
 - PERFMON
 ports:
-  9000/tcp: 9000
+  9000/tcp: null
   8812/tcp: 8812
   9009/tcp: 9009
 ports_description:
-  9000/tcp: HTTP API
+  9000/tcp: HTTP API (not exposed by default)
   8812/tcp: InfluxDB Line Protocol
   9009/tcp: PostgreSQL wire protocol
 auth_api: true
@@ -31,12 +31,14 @@ options:
   ssl: true
   certfile: fullchain.pem
   keyfile: privkey.pem
+  ssl_port_influxdb: 9449
   envvars: []
 schema:
   log_level: list(trace|debug|info|notice|warning|error|fatal)?
   ssl: bool
   certfile: str
   keyfile: str
+  ssl_port_influxdb: int(1,65535)?
   envvars:
-  - name: match(^INFLUXDB_([A-Z0-9_])+$)
+  - name: match(^QUESTDB_([A-Z0-9_])+$)
     value: str
