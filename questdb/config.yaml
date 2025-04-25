@@ -1,5 +1,5 @@
 name: QuestDB
-version: 3deaf75
+version: '6168823'
 url: https://questdb.com/
 image: ghcr.io/stevusprimus-hassio-addons/questdb/{arch}
 panel_icon: mdi:face-recognition
