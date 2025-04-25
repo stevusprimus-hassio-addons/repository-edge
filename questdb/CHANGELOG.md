@@ -1,3 +1,3 @@
-- Merge pull request #6 from stevusprimus-hassio-addons/feature/kick-it-off
+- Merge pull request #7 from stevusprimus-hassio-addons/feature/kick-it-off
 
 Update run
