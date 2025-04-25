@@ -11,9 +11,7 @@ arch:
 startup: services
 init: false
 ingress: true
-ingress_entry: /index.html
 ingress_port: 9443
-ingress_stream: true
 privileged:
 - PERFMON
 ports:
