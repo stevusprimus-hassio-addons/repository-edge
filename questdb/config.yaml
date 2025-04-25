@@ -1,6 +1,6 @@
 ---
 name: QuestDB
-version: dev
+version: e984aba
 url: https://questdb.com/
 image: "ghcr.io/stevusprimus-hassio-addons/addon-questdb/{arch}"
 panel_icon: mdi:face-recognition
