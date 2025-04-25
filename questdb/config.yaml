@@ -1,6 +1,6 @@
 ---
 name: QuestDB
-version: dev
+version: e608fe1
 url: https://questdb.com/
 image: "ghcr.io/stevusprimus-hassio-addons/questdb/{arch}"
 panel_icon: mdi:face-recognition
@@ -45,5 +45,5 @@ schema:
   keyfile: str
   ssl_port_influxdb: int(1,65535)?
   envvars:
-    - name: match(^QUESTDB_([A-Z0-9_])+$)
-      value: str
+  - name: match(^QUESTDB_([A-Z0-9_])+$)
+    value: str
