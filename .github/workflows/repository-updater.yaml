@@ -15,7 +15,8 @@ jobs:
   announce:
     name: Announce add-on update
     needs: workflows
-    run-if: ${{ secrets.DISCORD_WEBHOOK }}
+    if: |
+      secrets.DISCORD_WEBHOOK
     runs-on: ubuntu-latest
     steps:
       - name: 📢 Announce on Discord server
