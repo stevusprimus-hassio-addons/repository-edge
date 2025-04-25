@@ -1,5 +1,5 @@
 name: QuestDB
-version: 208ad2f
+version: 3fa17bc
 url: https://questdb.com/
 image: ghcr.io/stevusprimus-hassio-addons/questdb/{arch}
 panel_icon: mdi:face-recognition
@@ -28,6 +28,7 @@ map:
 - addon_config:rw
 - ssl
 - share:rw
+auth_api: true
 options:
   ssl: true
   certfile: fullchain.pem
