@@ -30,7 +30,6 @@ map:
 - addon_config:rw
 - ssl
 - share:rw
-auth_api: true
 options:
   ssl: true
   certfile: fullchain.pem
