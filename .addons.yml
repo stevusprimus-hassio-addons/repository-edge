@@ -5,3 +5,7 @@ addons:
     repository: stevusprimus-hassio-addons/addon-codeproject-ai-server
     target: codeproject-ai-server
     image: ghcr.io/stevusprimus-hassio-addons/codeproject-ai-server/{arch}
+  questdb:
+    repository: stevusprimus-hassio-addons/addon-questdb
+    target: questdb
+    image: ghcr.io/stevusprimus-hassio-addons/questdb/{arch}
