@@ -1,3 +1,3 @@
-- Merge pull request #23 from stevusprimus-hassio-addons/feature/kick-it-off
+- Merge pull request #24 from stevusprimus-hassio-addons/feature/kick-it-off
 
-asdaasdasdasd
+Update Dockerfile
