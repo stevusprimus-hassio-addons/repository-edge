@@ -26,10 +26,10 @@ ports_description:
   8812/tcp: PostgreSQL wire protocol
   9449/tcp: InfluxDB Line Protocol (SSL)
   9009/tcp: InfluxDB Line Protocol
-auth_api: true
 map:
   - addon_config:rw
   - ssl
+  - share:rw
 options:
   # auth: true
   # reporting: true
