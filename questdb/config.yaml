@@ -1,5 +1,5 @@
 name: QuestDB
-version: 675f2d6
+version: 58b0f67
 url: https://questdb.com/
 image: ghcr.io/stevusprimus-hassio-addons/questdb/{arch}
 panel_icon: mdi:face-recognition
@@ -25,10 +25,11 @@ ports_description:
   8812/tcp: PostgreSQL wire protocol
   9449/tcp: InfluxDB Line Protocol (SSL)
   9009/tcp: InfluxDB Line Protocol
-auth_api: true
 map:
 - addon_config:rw
 - ssl
+- share:rw
+auth_api: true
 options:
   ssl: true
   certfile: fullchain.pem
