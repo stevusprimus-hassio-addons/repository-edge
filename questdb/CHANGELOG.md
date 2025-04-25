@@ -1,3 +1,3 @@
-- Merge pull request #19 from stevusprimus-hassio-addons/feature/kick-it-off
+- Merge pull request #20 from stevusprimus-hassio-addons/feature/kick-it-off
 
-Update influxlineprotocol.gtpl
+asdasd
