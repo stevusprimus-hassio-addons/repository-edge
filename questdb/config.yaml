@@ -1,5 +1,5 @@
 name: QuestDB
-version: 53375cd
+version: c5c3c0e
 url: https://questdb.com/
 image: ghcr.io/stevusprimus-hassio-addons/questdb/{arch}
 panel_icon: mdi:face-recognition
@@ -34,8 +34,8 @@ options:
   certfile: fullchain.pem
   keyfile: privkey.pem
   logins_influx_line_protocol: []
+  envvars: []
 schema:
-  log_level: list(trace|debug|info|notice|warning|error|fatal)?
   ssl: bool
   certfile: str
   keyfile: str
