@@ -1,3 +1,3 @@
-- Merge pull request #26 from stevusprimus-hassio-addons/feature/kick-it-off
+- Merge pull request #28 from stevusprimus-hassio-addons/feature/kick-it-off
 
-Update config.yaml
+time to release
