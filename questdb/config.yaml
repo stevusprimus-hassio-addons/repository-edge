@@ -1,5 +1,5 @@
 name: QuestDB
-version: e3409a0
+version: 82d78b9
 url: https://questdb.com/
 image: ghcr.io/stevusprimus-hassio-addons/questdb/{arch}
 panel_icon: mdi:database
